@@ -5,6 +5,7 @@
         <title></title>    
     </head>
     <body>
+        <form method='post' action='form.php'>
         <table>
             <?php 
             $array=array('name'=>'Name', 'lastName'=>'Last Name', 'address'=>'Address', 'phone'=>'Phone');
@@ -31,10 +32,12 @@
             </tr>
             <tr>
                 <td>
-                    <input type="submit" name="submit" value="Guardar">
+                    <input type="submit" name="submit" value="Enviar">
                 </td>
             </tr>
         </table>
+        </form>
+        <h1><?php echo "!!!!! {$_GET['answer']} gracias {$_GET['name']}"; ?> </h1>
     </body>
 </html>
 
