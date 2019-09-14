@@ -5,6 +5,7 @@
         <title></title>    
     </head>
     <body>
+    
         <form method='post' action='form.php'>
         <table>
             <?php 
