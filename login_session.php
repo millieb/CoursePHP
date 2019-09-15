@@ -8,7 +8,7 @@ if($_POST['userName']==$user
         $_SESSION['login']='Administrator';
         header('Location: forms.php');
     }else {
-        echo 'Usuario & contraseña incorrectos';
+        echo 'Usuario & Password incorrect';
     }
 
 ?>
